@@ -32,4 +32,8 @@ public class Usuario implements UserDetails {
     public String getUsername() {
         return nome;
     }
+
+    public String getNome() {
+        return nome;
+    }
 }
